@@ -42,7 +42,6 @@ const menu = document.querySelector('.menu'),
 
 burger.addEventListener('click', ()=>{
   menu.classList.add('menu__show')
-  document.body.style.overflow = 'hidden';
 })
 
 closeMenu.addEventListener('click', ()=>{
